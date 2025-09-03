@@ -120,8 +120,8 @@
   "apps_keybase": [
     "io.keybase.ossifrage/io.keybase.ossifrage.MainActivity"
   ],
-  "apps_kirigami_gallery": [
-    "org.kde.kirigamigallery/org.qtproject.qt5.android.bindings.QtActivity"
+  "apps_kirigami_": [
+    "org.kde.kirigami/org.qtproject.qt5.android.bindings.QtActivity"
   ],
   "apps_klimbgrades": [
     "org.kde.klimbgrades/org.qtproject.qt5.android.bindings.QtActivity"
@@ -1733,7 +1733,8 @@
     "com.google.android.apps.ads.express/com.google.android.apps.ads.express.activities.LaunchActivity"
   ],
   "google_agenda": [
-    "com.google.android.calendar/com.android.calendar.AllInOneActivity"
+    "com.google.android.calendar/com.android.calendar.AllInOneActivity",
+    "org.fossify.calendar/org.fossify.calendar.MainActivity"
   ],
   "google_allo": [
     "com.google.android.apps.fireball/com.google.android.apps.fireball.ui.conversationlist.ConversationListActivity"
@@ -1969,7 +1970,8 @@
     "com.google.android.apps.genie.geniewidget/com.google.android.apps.genie.geniewidget.activities.NewsActivity"
   ],
   "google_pdfviewer": [
-    "com.google.android.apps.pdfviewer/com.google.android.apps.viewer.PdfViewerActivity"
+    "com.google.android.apps.pdfviewer/com.google.android.apps.viewer.PdfViewerActivity",
+    "app.grapheneos.pdfviewer/app.grapheneos.pdfviewer.PdfViewer"
   ],
   "google_phone": [
     "com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity"
@@ -2461,7 +2463,8 @@
     "com.htc.album/com.htc.photoenhancer.LandingPage",
     "com.motorola.MotGallery2/com.android.gallery3d.app.GalleryActivity",
     "com.nextbit.gallery/com.nextbit.gallery.main.MainActivity",
-    "com.oneplus.gallery/com.oneplus.gallery.app.MainActivity"
+    "com.oneplus.gallery/com.oneplus.gallery.app.MainActivity",
+    "org.fossify.gallery/org.fossify.gallery.MainActivity"
   ],
   "system_gesture_builder": [
     "com.android.gesture.builder/com.android.gesture.builder.GestureBuilderActivity"
@@ -2805,7 +2808,8 @@
     "com.motorola.cameraone/com.motorola.camera.Camera",
     "com.motorola.camera1/com.motorola.camera.Camera",
     "com.motorola.camera3/com.motorola.camera.Camera",
-    "com.nextbit.camera/com.nextbit.camera.ui.CameraActivity"
+    "com.nextbit.camera/com.nextbit.camera.ui.CameraActivity",
+    "app.grapheneos.camera/app.grapheneos.camera.MainActivity"
   ],
   "system_preferences": [
     "com.android.hisiliconsetting/com.android.hisiliconsetting.MainActivity",
