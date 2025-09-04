@@ -23,7 +23,7 @@
         android:networkSecurityConfig="@xml/network_config"
         android:label="Papirus Icon Pack"
         android:supportsRtl="true"
-        android:theme="@style/CandyBar.Theme.Base"
+        android:theme="@style/CandyBar.Theme.App.DayNight"
         tools:replace="android:icon"
         tools:targetApi="n">
 
@@ -46,7 +46,7 @@
         <activity
             android:name="io.github.PapirusDevelopmentTeam.papirus_icons.activities.MainActivity"
             android:launchMode="singleTop"
-            android:theme="@style/CandyBar.Theme.Base"
+            android:theme="@style/CandyBar.Theme.App.DayNight"
             android:configChanges="uiMode|orientation|keyboardHidden|screenSize"
             android:exported="true">
             <intent-filter>
