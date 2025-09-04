@@ -10,6 +10,7 @@ import io.github.PapirusDevelopmentTeam.papirus_icons.R;
 
 public class CandyBar extends CandyBarApplication {
 
+    @NonNull
     @Override
     public Class<?> getDrawableClass() {
         return R.drawable.class;

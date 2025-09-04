@@ -20,7 +20,7 @@ android {
         minSdkVersion rootProject.ext.MinSdk
         targetSdkVersion rootProject.ext.TargetSdk
         versionCode 10
-        versionName "20220220"
+        versionName "20250904"
         multiDexEnabled true
 
         // Naming app bundles
