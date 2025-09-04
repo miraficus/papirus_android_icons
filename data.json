@@ -120,8 +120,8 @@
   "apps_keybase": [
     "io.keybase.ossifrage/io.keybase.ossifrage.MainActivity"
   ],
-  "apps_kirigami_": [
-    "org.kde.kirigami/org.qtproject.qt5.android.bindings.QtActivity"
+  "apps_kirigami_gallery": [
+    "org.kde.kirigamigallery/org.qtproject.qt5.android.bindings.QtActivity"
   ],
   "apps_klimbgrades": [
     "org.kde.klimbgrades/org.qtproject.qt5.android.bindings.QtActivity"
