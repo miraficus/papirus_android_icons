@@ -818,7 +818,8 @@
     "com.heavens_above.viewer/com.heavens_above.viewer.ViewerActivity"
   ],
   "apps_here_wego": [
-    "com.here.app.maps/com.here.app.OneAppLauncherAlias"
+    "com.here.app.maps/com.here.app.OneAppLauncherAlias",
+    "com.here.app.maps/com.here.app.wego.MainActivity"
   ],
   "apps_hi_wallpaper": [
   "com.transsion.hilauncher/com.transsion.theme.common.WallpaperMain"
@@ -5782,9 +5783,6 @@
   ],
   "apps_goldendict": [
   "mobi.goldendict.android/mobi.goldendict.android.GoldenDict"
-  ],
-  "apps_here_wego": [
-  "com.here.app.maps/com.here.app.wego.MainActivity"
   ],
   "apps_notify_for_mi_band": [
   "com.mc.miband1/com.mc.miband1.ui.MainActivity"
