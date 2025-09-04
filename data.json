@@ -1735,7 +1735,7 @@
   ],
   "google_agenda": [
     "com.google.android.calendar/com.android.calendar.AllInOneActivity",
-    "org.fossify.calendar/org.fossify.calendar.MainActivity"
+    "org.fossify.calendar/org.fossify.calendar.activities.MainActivity"
   ],
   "google_allo": [
     "com.google.android.apps.fireball/com.google.android.apps.fireball.ui.conversationlist.ConversationListActivity"
@@ -2465,7 +2465,7 @@
     "com.motorola.MotGallery2/com.android.gallery3d.app.GalleryActivity",
     "com.nextbit.gallery/com.nextbit.gallery.main.MainActivity",
     "com.oneplus.gallery/com.oneplus.gallery.app.MainActivity",
-    "org.fossify.gallery/org.fossify.gallery.MainActivity"
+    "org.fossify.gallery/org.fossify.gallery.activities.MainActivity"
   ],
   "system_gesture_builder": [
     "com.android.gesture.builder/com.android.gesture.builder.GestureBuilderActivity"
@@ -2810,7 +2810,7 @@
     "com.motorola.camera1/com.motorola.camera.Camera",
     "com.motorola.camera3/com.motorola.camera.Camera",
     "com.nextbit.camera/com.nextbit.camera.ui.CameraActivity",
-    "app.grapheneos.camera/app.grapheneos.camera.MainActivity"
+    "app.grapheneos.camera/app.grapheneos.camera.ui.activities.MainActivity"
   ],
   "system_preferences": [
     "com.android.hisiliconsetting/com.android.hisiliconsetting.MainActivity",
