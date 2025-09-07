@@ -18,7 +18,7 @@ fi
 
 # Get keys with empty array and then show them with line numbers
 while read -r key; do
-	GREP_COLOR='33' grep --color=auto -n "$key" "$DB_FILE"
+	GREP_COLORS='mt=33' grep --color=auto -n "$key" "$DB_FILE"
 	EXIT_CODE=1
 done < <(jq -r 'to_entries[] | select(.value == []) | .key' "$DB_FILE")
 
