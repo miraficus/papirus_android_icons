@@ -5,7 +5,7 @@ ABS_PATH = path.dirname(path.abspath(__file__))
 
 DB_FILE = environ.get('DB_FILE', path.join(ABS_PATH, 'data.json'))
 APPFILTER_FILE = environ.get('APPFILTER_FILE', path.join(ABS_PATH,
-    'appfilter.xml'))
+    'xml/appfilter.xml'))
 
 # Remove the existing appfilter.xml file
 if path.exists(APPFILTER_FILE):

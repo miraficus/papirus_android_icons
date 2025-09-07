@@ -25,7 +25,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.App.Starting"
         tools:replace="android:icon"
-        tools:targetApi="n">
+        tools:targetApi="n"
+        android:enableOnBackInvokedCallback="true">
 
         <activity
             android:name="io.github.PapirusDevelopmentTeam.papirus_icons.activities.MainActivity"
