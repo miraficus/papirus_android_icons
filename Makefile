@@ -3,8 +3,9 @@ APPFILTER_FILE ?= ./app/src/main/res/xml/appfilter.xml
 DRAWABLE_FILE ?= ./app/src/main/res/xml/drawable.xml
 SRC_DIR ?= ./src
 BITMAPS_DIR ?= ./app/src/main/res/drawable-nodpi
+VALIDATE ?= true
 
-build: test generate_appfilter convert generate_drawable
+build: test find generate_appfilter convert generate_drawable
 
 delete_pngs:
 	find $(BITMAPS_DIR) -name '*.png' -delete
@@ -55,7 +56,14 @@ __find_invalid_filenames:
 		-exec false '{}' +
 .PHONY: __find_invalid_filenames
 
-# If it fails on find missing icons you can add them to data.json with this: python3 scripts/add_missing_icons.py
-test: __validate_json __find_invalid_filenames __find_missing_icons __find_duplicates_activities __find_keys_without_activities
+ifeq ($(VALIDATE),true)
+find: __find_keys_without_activities
+else
+find:
+	@echo "Skipping validation check"
+endif
+
+# If it fails on find missing icons you can add them to data.json with this: python3 scripts/add_missing_icons.py or if it fails on keys without activities you can run: make VALIDATE=false build
+test: __validate_json __find_invalid_filenames __find_missing_icons __find_duplicates_activities
 
 .PHONY: build delete_pngs convert generate_appfilter generate_drawable test pretty
