@@ -5218,6 +5218,9 @@
     "org.protox/org.protox.activity.QtActivityEx",
     "com.zoffcc.applications.trifa/com.zoffcc.applications.trifa.StartMainActivityWrapper"
   ],
+  "apps_vanadium": [
+    "app.vanadium.browser/com.google.android.apps.chrome.Main"
+  ],
   "apps_vanced_manager": [
     "com.vanced.manager/com.vanced.manager.ui.SplashScreenActivity"
   ],
@@ -6920,7 +6923,9 @@
     "com.android.calendar/com.android.calendar.LaunchTasksActivity"
   ],
   "system_camera": [],
-  "system_camera_2": [],
+  "system_camera_2": [
+    "com.samsung.android.app.galaxyraw/com.samsung.android.app.galaxyraw.GalaxyRaw"
+  ],
   "system_clock": [
     "com.acer.deskclock/com.acer.deskclock.DeskClock",
     "com.android.alarmclock/com.android.alarmclock.AlarmClock",
@@ -7231,7 +7236,9 @@
     "com.littlesmartapps.wifiaccesspointwidget/com.littlesmartapps.wifiaccesspointwidget.MainActivity"
   ],
   "system_internet_chat": [],
-  "system_keyboard": [],
+  "system_keyboard": [
+    "com.google.android.inputmethod.latin/com.google.android.libraries.inputmethod.launcher.LauncherActivity"
+  ],
   "system_mail": [
     "com.android.email/com.amazon.email.activity.EmailActivity",
     "com.android.email/com.android.email.activity.EmailActivity",
