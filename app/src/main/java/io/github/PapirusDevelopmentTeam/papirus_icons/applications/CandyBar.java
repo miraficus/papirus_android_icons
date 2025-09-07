@@ -21,19 +21,27 @@ public class CandyBar extends CandyBarApplication {
     @Override
     public void onCreate() {
         super.onCreate();
-
-        // OneSignal Initialization
-        OneSignal.initWithContext(this);
         OneSignal.setAppId("YOUR_ONESIGNAL_APP_ID_HERE");
+        OneSignal.initWithContext(this, "YOUR_ONESIGNAL_APP_ID");
     }
     */
 
     @NonNull
     @Override
     public Configuration onInit() {
-        // Sample configuration
         Configuration configuration = new Configuration();
-        
+
+        // TODO: Remove `/*` and `*/` below to enable OneSignal
+        /*
+        configuration.setNotificationEnabled(true, (isEnable) -> {
+            if (isEnable) {
+                OneSignal.getUser().getPushSubscription().optIn();
+            } else {
+                OneSignal.getUser().getPushSubscription().optOut();
+            }
+        });
+        */
+
         DonationLink[] donationLinks = new DonationLink[] {
         new DonationLink(
                 // You can use png file (without extension) inside drawable-nodpi folder or url
