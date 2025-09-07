@@ -4,8 +4,8 @@ from os import environ, path, remove
 ABS_PATH = path.dirname(path.abspath(__file__))
 
 DB_FILE = environ.get('DB_FILE', path.join(ABS_PATH, 'data.json'))
-APPFILTER_FILE = environ.get('APPFILTER_FILE', path.join(ABS_PATH,
-    'xml/appfilter.xml'))
+APPFILTER_FILE = environ.get('APPFILTER_FILE', path.join(ABS_PATH, '../app/src/main/res/xml/appfilter.xml'))
+
 
 # Remove the existing appfilter.xml file
 if path.exists(APPFILTER_FILE):
@@ -31,3 +31,6 @@ for icon_src, components in data.items():
 app_filter_content += '</resources>'
 with open(APPFILTER_FILE, 'w') as app_filter_obj:
     app_filter_obj.write(app_filter_content)
+
+print("Generated {} with {} icons.".format(APPFILTER_FILE, len(data)))
+

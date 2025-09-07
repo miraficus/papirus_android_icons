@@ -55,6 +55,7 @@ __find_invalid_filenames:
 		-exec false '{}' +
 .PHONY: __find_invalid_filenames
 
+# If it fails on find missing icons you can add them to data.json with this: python3 scripts/add_missing_icons.py
 test: __validate_json __find_invalid_filenames __find_missing_icons __find_duplicates_activities __find_keys_without_activities
 
 .PHONY: build delete_pngs convert generate_appfilter generate_drawable test pretty
